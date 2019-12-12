@@ -10,7 +10,7 @@ n"
   end
 
   def raise_hand
-  return  super * 10
+  puts super * 10
   end
 
 
