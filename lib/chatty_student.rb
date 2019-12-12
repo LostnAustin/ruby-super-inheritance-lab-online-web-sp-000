@@ -9,7 +9,7 @@ class ChattyStudent < Student
 
   def raise_hand
     binding.pry
-  super.collect do {|x| x * 10}
+  super.collect do {x * 10}
   end
 
 
