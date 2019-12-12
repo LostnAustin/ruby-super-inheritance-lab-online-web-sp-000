@@ -8,7 +8,7 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-  super.each do |string|
+  super.map do |string|
     puts string * 10
 end
 end
