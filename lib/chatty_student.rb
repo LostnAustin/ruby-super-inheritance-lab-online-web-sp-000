@@ -11,6 +11,6 @@ class ChattyStudent < Student
     binding.pry
   super.collect do {x => (x * 10)}
   end
-
+end
 
 end
