@@ -9,9 +9,7 @@ class ChattyStudent < Student
 
   def raise_hand
     10.times do super
-  #super.map do |string|
-  #  puts "#{string}" * 10
-end
-end
+      end
+  end
 
 end
