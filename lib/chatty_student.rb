@@ -8,7 +8,7 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-  super do super * 10
+  super = (super * 10)
   end
 
 end
