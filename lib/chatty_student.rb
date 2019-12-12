@@ -1,5 +1,5 @@
 require_relative "./student.rb"
-
+require "pry"
 class ChattyStudent < Student
 
   def hello
@@ -8,6 +8,7 @@ class ChattyStudent < Student
   end
 
   def raise_hand
+    binding.pry
   super.do {|x| x * 10}
   end
 
