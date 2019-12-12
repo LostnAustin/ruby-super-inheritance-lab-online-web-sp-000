@@ -8,7 +8,7 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-  super.do * 10
+  super.do {|x| x * 10}
   end
 
 
